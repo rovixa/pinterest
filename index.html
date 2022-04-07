@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinteres</title>
+    <link rel="stylesheet" href="style.css">
+  <body>
+      <nav id="navbar-pinterest">  
+          <a id="logo" href=""> 
+                  <img id="" src="pinterest.png" alt="logo">
+                
+          <div><input id="barra" type="text"></div>
+          <div id="main-conteiner">
+          </div>
+          
+      </nav>
+              
+    <div class="grid-container">
+        <img class="grid-item" src="foto1.jpg"/>
+        <img class="grid-item" src="foto2.jpg"/>
+        <img class="grid-item" src="foto3.jpg"/>
+        <img class="grid-item" src="foto4.jpg"/>
+        <img class="grid-item" src="foto5.jpg"/>
+        <img class="grid-item" src="foto6.jpg"/>
+        <img class="grid-item" src="foto7.jpg"/>
+        <img class="grid-item" src="foto8.jpg"/>
+        <img class="grid-item" src="foto9.jpg"/>
+        <img class="grid-item" src="foto10.jpg"/>
+        <img class="grid-item" src="foto11.jpg"/>
+        <img class="grid-item" src="foto12.jpg"/>
+        <img class="grid-item" src="foto13.jpg"/>
+        <img class="grid-item" src="foto14.jpg"/>
+        <img class="grid-item" src="foto15.jpg"/>
+        <img class="grid-item" src="foto16.jpg"/>
+        <img class="grid-item" src="foto17.jpg"/>
+        <img class="grid-item" src="foto18.jpg"/>
+        <img class="grid-item" src="foto19.jpg"/>
+        <img class="grid-item" src="foto20.jpg"/>
+        <img class="grid-item" src="foto21.jpg"/>
+        <img class="grid-item" src="foto22.jpg"/>
+        <img class="grid-item" src="foto23.jpg"/>
+        <img class="grid-item" src="foto24.jpg"/>
+        <img class="grid-item" src="foto25.jpg"/>
+        <img class="grid-item" src="foto26.jpg"/>
+        <img class="grid-item" src="foto27.jpg"/>
+        <img class="grid-item" src="foto28.jpg"/>
+        <img class="grid-item" src="foto29.jpg"/>
+        <img class="grid-item" src="foto30.jpg"/>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script>
+      var elem = document.querySelector(".grid-container");
+        var msnry = new Masonry(elem, {
+        itemSelector: ".grid-item",
+        columWidth: 230,
+        gutter: 20,
+        isFitWidth: true
+      })
+    </script>
+  </body>
+</html>
